@@ -20,7 +20,7 @@
 # Additional objects from Venhola et al. (2022). Columns RA_2, DEC_2, ID_FDS2022 are from Venhola et al. (2022).
 # Corrected positons for LEDA_630952 and LEDA_659358. In their previous position new objects ids were added, FDS21_DWARF006 and FDS19_DWARF184, respectively.
 #
-# ID    RA         DEC         RA                   DEC                   RA_2      DEC_2      NAME                       ID_FDS2022   Morph_Legacy_Analia   Vr_NED/Maddox   e_Vr        Vr_Ref                Ag      Ar      Ai      Az     
+# ID    RA         DEC         RA_1                 DEC_1                 RA_2      DEC_2      NAME                       ID_FDS2022   Morph_Legacy_Analia   Vr_NED/Maddox   e_Vr        Vr_Ref                Ag      Ar      Ai      Az     
   1ya   02:51:47   -30:06:30   42.949875            -30.1081              0.0       0.0        LSBG_F416-012              -            LSB_blue_center       1079.253        63.855803   20032dF...C...0000C   0.055   0.038   0.028   0.021  
   1k    02:55:12   -36:18:00   43.802015            -36.300167            0.0       0.0        ESO_356-18                 -            Irr?                  1438.104623     9.893153    1996ApJS..107...97M   0.072   0.05    0.037   0.028  
   1kb   02:55:39   -36:20:07   43.913877            -36.335182            0.0       0.0        LEDA_142353                -            Edge-on_disk          1680.03717      50.065348   1996ApJS..107..201L   0.07    0.049   0.036   0.027  
