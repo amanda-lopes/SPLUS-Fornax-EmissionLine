@@ -4,7 +4,7 @@ This repository is dedicated to the emission line analysis in the Fornax cluster
 It also contains codes related to Legacy Survey, in order to compare results between both surveys.
 
 Python in this repository:
-* download_legacy images //
+* download_legacy images /
   usage: python download_legacy_images.py --legacy table_name
   
   output: creates a folder "legacy_color_images" containing legacy color images in JPEG
