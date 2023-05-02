@@ -6,6 +6,7 @@ It also contains codes related to Legacy Survey, in order to compare results bet
 Python in this repository:
 * download_legacy images
   usage: python download_legacy_images.py --legacy table_name
+  
   output: creates a folder "legacy_color_images" containing legacy color images in JPEG
 * spatial_butterworth.py
   usage: from spatial_butterworth import butterworth
