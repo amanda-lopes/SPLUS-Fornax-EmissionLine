@@ -12,7 +12,7 @@ Python in this repository:
   usage: from spatial_butterworth import butterworth <br>
          butterworth(input_data).apply() <br>
   input information: input_data can be a single image or a data cube. In case of a single image, 
-  the user must add image_type='single', as the default is image_type='cube'
+  the user must add image_type='single', as the default is image_type='cube' <br>
   output: input_data with butterworth filter applied
 
 Main code (work in progress, not yet uploaded in this repository)<br>
