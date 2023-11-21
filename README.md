@@ -6,7 +6,7 @@ It also contains codes related to Legacy Survey, in order to compare results bet
 Python in this repository:
 * download_legacy images <br>
   usage: python download_legacy_images.py --legacy table_name <br>
-  output: creates a folder "legacy_color_images" containing legacy color images in JPEG
+  output: creates a folder "legacy_color_images" containing legacy color images in JPEG <br>
   optional arguments(default): --dr dr9  --bands grz --pixscale 0.262
   
 * spatial_butterworth.py <br>
