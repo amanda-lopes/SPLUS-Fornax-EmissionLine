@@ -1,4 +1,4 @@
-#Code for creating images from Legacy Survey
+#Code for creating images from Legacy Survey DR9
 #Written by Amanda Lopes
 
 import argparse
@@ -17,6 +17,15 @@ parser.add_argument("--Object", type=str,
                     default=None,
                     help="Id object of a given source ")
 parser.add_argument("--legacy", action="store_true",help="make legacy images")
+parser.add_argument("--DR", type=str,
+                    default='dr9',
+                    help="Data release to be used to obtain the images. Default: 'dr9'")
+parser.add_argument("--bands", type=str,
+                    default='grz',
+                    help="Filters to be used in the combined image. Default: 'grz'")
+parser.add_argument("--pixscale",type=str,
+                    default='0.262',
+                    help="Pixel scale of the images. Default: 0.262")
 
 args = parser.parse_args()
 file_ = args.table + ".ecsv"
@@ -47,8 +56,7 @@ def download_legacy(data,outpath):
             os._exit(0)
 
         print(Name)
-        url = "https://www.legacysurvey.org/viewer/jpeg-cutout?ra=" + str(ra) + "&dec=" + str(dec) + "&size=" + str(
-            radii) + "&layer=ls-dr9&pixscale=0.55&bands=grz"
+        url = f"https://www.legacysurvey.org/viewer/jpeg-cutout?ra={ra}&dec={dec}&size={radii}&layer=ls-{args.DR}&pixscale={args.pixscale}&bands={args.bands}"
         wget.download(url, '{}/{}_{}pix.jpeg'.format(outpath,Name, radii))
 
 if args.legacy==True:
