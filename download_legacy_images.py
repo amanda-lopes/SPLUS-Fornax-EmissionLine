@@ -6,6 +6,7 @@ import wget
 from pathlib import Path
 from astropy.table import Table
 import os
+import numpy as np
 
 parser = argparse.ArgumentParser(
     description="""Download images from Legacy""")
